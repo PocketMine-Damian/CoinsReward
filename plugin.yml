@@ -1,0 +1,15 @@
+name: CoinsReward
+version: 1.0.0
+api: [3.0.0, 4.0.0]
+author: DerDamian11
+main: CoinsReward/Main
+
+commands:
+  reward:
+     description: §6§lCoinsReward-System
+     permission: reward.coins
+
+     permissions:
+      coins.reward:
+        default: true
+        description: $username hat Coins erhalten!
